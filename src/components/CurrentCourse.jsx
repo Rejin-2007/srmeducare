@@ -6,8 +6,11 @@ const CurrentCourse = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="p-6">
-            <div className="flex flex-col md:flex-row gap-4 mb-6 p-4 ">
+        <div className="p-6 text-center">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Our Courses🎓
+          </h2>
+            <div className="flex flex-col md:flex-row gap-4 mb-6 p-4">
                 {/* PSC Coaching */}
                 <div
                     className="relative flex-1 flex justify-center items-center cursor-pointer group"

@@ -1,24 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { FaYoutube, FaInstagram } from "react-icons/fa";
+import EmailContact from "../components/EmailContact";
 
 const Footer = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    comment: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    setFormData({ name: "", phone: "", comment: "" });
-  };
-
   return (
     <footer className="bg-[#19183B] text-[#E7E2Ef] border-t-2 border-[#7B2425] p-8">
       <div className="flex flex-col md:flex-row gap-8">
@@ -57,43 +42,7 @@ const Footer = () => {
 
         {/* Right: Contact Form */}
         <div className="flex-1">
-          <form
-            onSubmit={handleSubmit}
-            className="flex flex-col gap-3"
-          >
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              placeholder="Your Name"
-              className="p-2 rounded border border-[#7B2425] bg-[#19183B] text-[#E7E2Ef] placeholder:text-[#E7E2Ef] focus:outline-none"
-              required
-            />
-            <input
-              type="text"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              placeholder="Phone"
-              className="p-2 rounded border border-[#7B2425] bg-[#19183B] text-[#E7E2Ef] placeholder:text-[#E7E2Ef] focus:outline-none"
-              required
-            />
-            <textarea
-              name="comment"
-              value={formData.comment}
-              onChange={handleChange}
-              placeholder="Comment"
-              className="p-2 rounded border border-[#7B2425] bg-[#19183B] text-[#E7E2Ef] placeholder:text-[#E7E2Ef] focus:outline-none"
-              required
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-[#7B2425] hover:bg-[#E7E2Ef] hover:text-[#19183B] transition-colors duration-200 p-2 rounded font-semibold"
-            >
-              Submit
-            </button>
-          </form>
+          <EmailContact />
         </div>
       </div>
 
