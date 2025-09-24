@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeView from '../components/HomeView'
 
-const TermsAndConditions = () => {
+const TermsAndConditions = ({ title }) => {
   return (
-    <div>TermsAndConditions</div>
+    <div>
+            <HomeView  title = { title }/>
+    </div>
   )
 }
 

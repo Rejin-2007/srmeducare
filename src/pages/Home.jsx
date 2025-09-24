@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeView from '../components/HomeView'
 
-const Home = () => {
+const Home = ({ title }) => {
   return (
-    <div>Home</div>
+    <div>
+      <HomeView title = { title } />
+    </div>
   )
 }
 

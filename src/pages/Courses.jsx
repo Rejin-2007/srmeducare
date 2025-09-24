@@ -1,12 +1,14 @@
 import React from 'react'
 import CurrentCourse from '../components/CurrentCourse'
 import UpComingCourse from '../components/UpComingCourse'
+import HomeView from '../components/HomeView'
 
-const Courses = () => {
+const Courses = ({ title }) => {
   return (
     <div>
-        <CurrentCourse />
-        <UpComingCourse />
+      <HomeView title = { title } />
+      <CurrentCourse />
+      <UpComingCourse />
     </div>
   )
 }

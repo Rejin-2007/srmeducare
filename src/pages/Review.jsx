@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeView from '../components/HomeView'
 
-const Review = () => {
+const Review = ({ title }) => {
   return (
-    <div>Review</div>
+    <div>
+      <HomeView title = { title } />
+    </div>
   )
 }
 

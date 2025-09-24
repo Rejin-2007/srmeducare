@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeView from '../components/HomeView'
 
-const CoursesTution = () => {
+const CoursesTution = ({ title }) => {
   return (
-    <div>CoursesTution</div>
+    <div>
+      <HomeView title = { title } />
+    </div>
   )
 }
 
