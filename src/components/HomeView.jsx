@@ -41,7 +41,14 @@ const HomeView = ({ title }) => {
         >
           SRM Educare
         </motion.h1>
-
+        <motion.p
+          className="text-lg md:text-xl text-orange-300 font-medium"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
+        >
+          This is a personal study platform only.
+        </motion.p>
         <motion.p
           className="text-lg md:text-xl text-gray-200 font-medium"
           initial={{ opacity: 0 }}

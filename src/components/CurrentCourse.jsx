@@ -26,14 +26,14 @@ const CurrentCourse = () => {
                     {/* Text overlay */}
                     <div className="absolute flex items-center gap-2 p-3 rounded bg-[#19183B]/70 text-[#E7E2Ef] border border-[#7B2425] group-hover:bg-[#19183B]/90 transition">
                         <FaChalkboardTeacher size={28} />
-                        <span className="font-semibold text-lg">General PSC Coaching</span>
+                        <span className="font-semibold text-lg">General PSC Coaching,<p className="text-sm text-amber-100">{"(Click Here For More Details)"}</p></span>
                     </div>
                 </div>
 
                 {/* Tuition */}
                 <div
                     className="relative flex-1 flex justify-center items-center cursor-pointer group"
-                    onClick={() => navigate("/courses/tution")}
+                    
                 >
                     <img
                         src="/tution.jpg"

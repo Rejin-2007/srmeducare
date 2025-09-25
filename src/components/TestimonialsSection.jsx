@@ -10,14 +10,14 @@ const TestimonialsSection = () => {
       {
         id: 1,
         rating: 5, // Number of stars (1-5)
-        text: "Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis nec, tincidunt ligula. Sed dapibus mauris ullamcorper. Iuctus magna.",
-        author: "DAVID FINCH"
+        text: "Joining SRM has been one of the best decisions I've made for my PSC exam preparation. The classes are clear and easy to understand, and the teachers are excellent at explaining complex topics in a simple way. I've been able to study topics I previously avoided, and the daily tests and motivation from the admin and HOD are incredibly helpful. This course is definitely helping me get closer to my dream of a government job.",
+        author: "Arsha Mudakkal"
       },
       {
         id: 2,
         rating: 5, // Number of stars (1-5)
-        text: "Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis nec, tincidunt ligula. Sed dapibus mauris ullamcorper. Iuctus magna.",
-        author: "DAVID FINCH"
+        text: "Joining SRM has been one of the best decisions I've made for my PSC exam preparation. The classes are clear and easy to understand, and the teachers are excellent at explaining complex topics in a simple way. I've been able to study topics I previously avoided, and the daily tests and motivation from the admin and HOD are incredibly helpful. This course is definitely helping me get closer to my dream of a government job.",
+        author: "Ananthu Thiruvarp"
       }
     ]
   };
