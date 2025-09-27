@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex-1 flex flex-col justify-start gap-2">
           <p>Email: srm171121@gmail.com</p>
           <p>Phone 1: 8157874911</p>
-          <p>Phone 2:9037474911</p>
+          <p>Phone 2: 9037474911</p>
           <Link
             to="/terms-and-conditions"
             className="underline hover:text-[#7B2425] transition-colors duration-200"
