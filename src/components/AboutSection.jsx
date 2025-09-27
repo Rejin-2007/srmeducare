@@ -18,7 +18,7 @@ const AboutSection = () => {
         {
           title: "School Students",
           description:
-            "Live online tuition for school students from Grade 1 to Plus Two, following a 'one student, one teacher' model for each subject.",
+            "Live online tuition for school students from Grade 1 to Plus Two ( STATE,NCERT, ICSE) , following a 'one student, one teacher' model for each subject.",
         },
         {
           title: "Entrance Exam Coaching",

@@ -8,7 +8,7 @@ const Navbar = () => {
   const menuItems = ["Home", "Courses", "Faculty", "Review"];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-transparent backdrop-blur-xl shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-transparent shadow-md">
       {/* Logo */}
       <div className="text-2xl font-extrabold tracking-wide">
         <span className="text-yellow-400">SRM</span> Educare
