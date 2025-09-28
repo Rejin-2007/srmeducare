@@ -47,7 +47,7 @@ const HomeView = ({ title }) => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          This is a personal study platform only.
+          We are Providing PSC Classes and school Tuition with Expert Personal Guidance.
         </motion.p>
         <motion.p
           className="text-lg md:text-xl text-gray-200 font-medium"
@@ -55,7 +55,7 @@ const HomeView = ({ title }) => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          {title || "Welcome to SRM Educare"}
+          {title}
         </motion.p>
       </motion.div>
     </section>
