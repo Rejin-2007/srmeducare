@@ -47,7 +47,7 @@ const HomeView = ({ title }) => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          We are Providing PSC Classes and school Tuition with Expert Personal Guidance.
+          This is only an Individual Educating Services
         </motion.p>
         <motion.p
           className="text-lg md:text-xl text-gray-200 font-medium"

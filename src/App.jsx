@@ -12,7 +12,7 @@ import FloatingContactButtons from "./components/FloatingContactButtons.jsx";
 
 const App = () => {
   const pageContent = {
-    home: "",
+    home: "We are Providing PSC Classes and school Tuition with Expert Personal Guidance.",
     courses: "📘 Our Courses - Explore PSC & Tuition Programs",
     coursesPsc: "🎯 PSC Coaching - Personal mentors & focused guidance",
     faculty: "👩‍🏫 Our Faculty - Meet our expert educators",

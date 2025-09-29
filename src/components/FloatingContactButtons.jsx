@@ -20,7 +20,7 @@ export default function FloatingContactButtons() {
 
       {/* Google Maps Button */}
       <a
-        href="https://maps.app.goo.gl/9WieAc7sYdF6xiTi6"
+        href="https://maps.app.goo.gl/ZfR9rDFqp58JaxRB8"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="View location on Google Maps"

@@ -57,7 +57,7 @@ const MainFacultySection = () => {
       },
       {
         id: 6,
-        name: "Najitha",
+        name: "NAJITHA SHARAF",
         education: "MA Economics",
         role: "",
         image: "/najitha.jpeg",
