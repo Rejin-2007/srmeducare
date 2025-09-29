@@ -10,14 +10,49 @@ const TestimonialsSection = () => {
       {
         id: 1,
         rating: 5, // Number of stars (1-5)
-        text: "Joining SRM has been one of the best decisions I've made for my PSC exam preparation. The classes are clear and easy to understand, and the teachers are excellent at explaining complex topics in a simple way. I've been able to study topics I previously avoided, and the daily tests and motivation from the admin and HOD are incredibly helpful. This course is definitely helping me get closer to my dream of a government job.",
-        author: "Arsha Mudakkal"
+        text: "Usually, when attending an online class—regardless of the course—after a few days of studying, our learning consistency tends to decline. But ever since I joined the SRM class, I’ve been consistently tracking my learning progress every single day. That’s definitely a positive aspect of SRM.The classes never feel overwhelming. The daily tests and the practice of writing out the mistakes as impositions have significantly boosted my learning. It creates a strong urge to read and study for at least an hour every day.",
+        author: "Arathy Melarannoor"
       },
       {
         id: 2,
         rating: 5, // Number of stars (1-5)
-        text: "Joining SRM has been one of the best decisions I've made for my PSC exam preparation. The classes are clear and easy to understand, and the teachers are excellent at explaining complex topics in a simple way. I've been able to study topics I previously avoided, and the daily tests and motivation from the admin and HOD are incredibly helpful. This course is definitely helping me get closer to my dream of a government job.",
-        author: "Ananthu Thiruvarp"
+        text: "SRM is the best online PSC class I’ve come across. It offers excellent teachers and well-prepared notes that are easy to understand—all at an affordable fee.",
+        author: "Adhithyakumar Karamana"
+      },
+      {
+        id: 3,
+        rating: 5, // Number of stars (1-5)
+        text: "The classes are easy to understand. Through this platform, I’ve been able to learn even those topics I used to avoid studying. I’ve grasped some useful shortcuts for solving math problems. Each subject is taught in detail, making it easier to grasp. The daily motivational messages from the Admin and HOD inspire me to keep learning. These classes are truly helping me pursue my dream of securing a job. Thank you so much!",
+        author: "Gopika Poovathur"
+      },
+      {
+        id: 4,
+        rating: 5, // Number of stars (1-5)
+        text: "It’s a great class. Every day there’s a test, and the lessons are delivered in a way that clearly explains which parts need to be studied. Everything is taught with clarity and understanding.",
+        author: "Anjitha Kotayam"
+      }, {
+        id: 5,
+        rating: 5, // Number of stars (1-5)
+        text: "The SRM course has truly helped me understand the subjects I’m studying and has given me the confidence to ask questions and clear my doubts. The daily updates, especially on current affairs, have made it easier to stay informed and learn consistently.SRM provides everything a student needs—flexibility to attend classes at our convenience, detailed and understandable teaching methods, and supportive faculty who explain concepts clearly. This course has helped me nurture my dream of securing a government job. I’m genuinely grateful for the guidance and support I’ve received.",
+        author: "Jobin kottukunnam"
+      },
+      {
+        id: 6,
+        rating: 5, // Number of stars (1-5)
+        text: "SRM’s PSC classes have been incredibly helpful for me. This is the first PSC course I’ve ever joined, and I’m really impressed. The classes are well-structured and easy to understand. The guide provided is also very supportive.Even though I haven’t completed my degree yet, I’m able to manage PSC preparation alongside my studies without any issues. Everything is going smoothly, and I’m truly satisfied with the experience.",
+        author: "Akshaya jagathi"
+      },
+      {
+        id: 7,
+        rating: 5, // Number of stars (1-5)
+        text: "I have been attending the SRM online classes and I am very satisfied with the classes which are simple and in a unique way of teaching which I have never experienced before moreover I think no other online platform will provide an easy well structured class like this  and I am glad I joined SRM ",
+        author: "Ananthu thiruvarp"
+      },
+      {
+        id: 8,
+        rating: 5, // Number of stars (1-5)
+        text: "The classes are very easy to understand. All the teachers explain everything with great clarity and precision. They repeat important points multiple times to ensure we grasp the concepts thoroughly. This approach has truly helped me learn better and feel more confident in my preparation.",
+        author: "Abhirami Kumarakam"
       }
     ]
   };
@@ -42,18 +77,18 @@ const TestimonialsSection = () => {
               {/* Star Rating */}
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, index) => (
-                  <FaStar 
-                    key={index} 
-                    className="text-2xl text-yellow-400" 
+                  <FaStar
+                    key={index}
+                    className="text-2xl text-yellow-400"
                   />
                 ))}
               </div>
-              
+
               {/* Testimonial Text */}
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 {testimonial.text}
               </p>
-              
+
               {/* Author */}
               <div className="text-lg font-semibold text-gray-900">
                 {testimonial.author}
