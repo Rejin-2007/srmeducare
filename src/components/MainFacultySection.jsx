@@ -27,6 +27,16 @@ const MainFacultySection = () => {
       },
       {
         id: 3,
+        name: "ASHISH V S",
+        education: "BA & MA Economics",
+        role: "Our Great Psc Tricks and Tips Master",
+        image: "/ASHISH_V_S.jpeg",
+        width: 400,
+        height: 533,
+        bio: "All subjects are taught using codes based on PREVIOUS YEAR QUESTION PAPERS  that makes learning simple This is our assurance to every student who wants to become a civil servant. If you are willing to study sincerely, your wish will definitely come true....."
+      },
+      {
+        id: 4,
         name: "Shibin",
         education: "Bsc Maths",
         role: "Mathematics & English",
@@ -36,7 +46,7 @@ const MainFacultySection = () => {
         bio: "I dedicate my utmost effort to ensure complete success in these two subjects for every aspirant who aims for 100% achievement. I feel deeply satisfied to be working here as a teacher, and that’s precisely why no aspirant who comes here will ever face failure."
       },
       {
-        id: 4,
+        id: 5,
         name: "Sariga MS",
         education: "B.Sc Botany",
         role: "Classes Of Science And Constitution",
@@ -46,7 +56,7 @@ const MainFacultySection = () => {
         bio: "As a teacher, I am committed to sincerely doing everything necessary to help job aspirants secure government employment, and I will stand by them as a support in their academic subjects until they successfully enter a job."
       },
       {
-        id: 5,
+        id: 6,
         name: "SINIYA",
         education: "B.Ed with ktet catagory 3",
         role: "history , economics, civics",
@@ -56,7 +66,7 @@ const MainFacultySection = () => {
         bio: "At SRM Institution, may the lessons of history, the wisdom of economics, and the values of citizenship guide you to shape a noble future."
       },
       {
-        id: 6,
+        id: 7,
         name: "NAJITHA SHARAF",
         education: "MA Economics",
         role: "PSC - Economics",
@@ -66,7 +76,7 @@ const MainFacultySection = () => {
         bio: ""
       },
       {
-        id: 7,
+        id: 8,
         name: "Rijeena Saju",
         education: "MA English Literature",
         role: "English & Geography & Malayalam & Civics",
@@ -76,7 +86,7 @@ const MainFacultySection = () => {
         bio: "As a teacher, I am able to work with 100% dedication through SRM Educare. What sets SRM Educare apart from other online classes is the flexibility it offers — each aspirant can learn at their own convenient time. Moreover, we, the teachers, are always committed to personally monitoring each student's learning progress, addressing their doubts, and guiding them with suggestions to help them succeed.For those who dream of securing a government job — especially homemakers and private sector employees — SRM Educare provides a learning path that fits their schedule and offers 100% assurance in helping them realize that dream."
       },
       {
-        id: 8,
+        id: 9,
         name: " Athira shaji",
         education: "MA Criminology &  PhD(Ongoing)",
         role: "sports, arts, literature, and culture",
@@ -86,7 +96,7 @@ const MainFacultySection = () => {
         bio: "Are you someone who has the desire to learn but feels that the circumstances are not in your favor? If so, remember — if you have the will, then through SRM, you can achieve your dream of securing a job, no matter the situation!"
       },
       {
-        id: 9,
+        id: 10,
         name: "Shubhija RK",
         education: "M Tech Structural Engineering",
         role: "PSC - Civil Engineering",
@@ -96,7 +106,7 @@ const MainFacultySection = () => {
         bio: "Commitment is an essential element of successful teaching. I pledge,to be committed to the students that walk through, my doors and I will serve them no matter how far they reach.Passionate teachers are distinguished by their commitment to the achievement of their  students. Henceforth, i will stood by SRM institution to pursue the dream of each and every candidature  to secure a good position in gvt sectors for their promising future."
       },
       {
-        id: 10,
+        id: 11,
         name: "Derly",
         education: "ME Structural Engineering",
         role: "PSC - Civil ",
@@ -106,7 +116,7 @@ const MainFacultySection = () => {
         bio: ""
       },
       {
-        id: 11,
+        id: 12,
         name: "Aju",
         education: "Bsc Maths",
         role: "Maths & General PSC Exams",
@@ -116,7 +126,7 @@ const MainFacultySection = () => {
         bio: ""
       },
       {
-        id: 12,
+        id: 13,
         name: "Vineetha",
         education: "B.Com Cooperation",
         role: "History & Economics",
@@ -126,7 +136,7 @@ const MainFacultySection = () => {
         bio: "I assure you of my sincere service in association with SRM EDUCARE. If you have the willingness and time to work hard, and if you're ready for it, your dream of securing a job can be fulfilled through SRM."
       },
       {
-        id: 13,
+        id: 14,
         name: "Karishma Nair",
         education: "MA English Literature & English Entrepreneur",
         role: "English Grammar course",
@@ -136,7 +146,7 @@ const MainFacultySection = () => {
         bio: "In the SRM personal online service, I handle English Grammar Classes. I dedicate all my efforts to helping any candidate aiming for a 100% success rate achieve complete victory in these two subjects. I'm very satisfied with my job as a teacher here, and that's why no candidate who comes here will fail.Wish you all success in your life.Thank you"
       },
       {
-        id: 14,
+        id: 15,
         name: "Aswathy",
         education: "M.Sc B.Ed",
         role: "Maths - General PSC & +1+2",
@@ -166,15 +176,14 @@ const MainFacultySection = () => {
 
             return (
               <div key={person.id} className="relative">
-                <div className={`flex flex-col lg:flex-row items-center gap-8 ${
-                  isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                }`}>
+                <div className={`flex flex-col lg:flex-row items-center gap-8 ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'
+                  }`}>
                   <div className="w-full lg:w-1/3">
                     <div className="relative group overflow-hidden rounded-2xl shadow-xl">
                       <div className="aspect-[3/4] bg-gray-100 relative overflow-hidden flex items-center justify-center">
                         {person.image && (
-                          <img 
-                            src={person.image} 
+                          <img
+                            src={person.image}
                             alt={person.name}
                             width={person.width || 400}
                             height={person.height || 533}
@@ -205,9 +214,8 @@ const MainFacultySection = () => {
                   </div>
 
                   <div className="w-full lg:w-2/3">
-                    <div className={`text-center lg:text-left ${
-                      isEven ? 'lg:text-left' : 'lg:text-right'
-                    }`}>
+                    <div className={`text-center lg:text-left ${isEven ? 'lg:text-left' : 'lg:text-right'
+                      }`}>
                       <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
                         {person.name}
                       </h3>
